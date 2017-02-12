@@ -1,0 +1,136 @@
+body {
+  margin: 0px; }
+
+section {
+  width: calc(100% - 160px);
+  display: flex;
+  padding: 40px 80px; }
+  section > header {
+    flex-grow: 1;
+    width: 50%;
+    text-transform: uppercase;
+    font-family: Montserrat-ExtraBold;
+    font-size: 54px;
+    color: #414141;
+    letter-spacing: 3.2px;
+    line-height: 70px; }
+  section > aside {
+    margin-top: 10px;
+    max-width: 500px;
+    padding: 0 20px;
+    flex-shrink: 1; }
+    section > aside > header {
+      /* We conduct Business : */
+      font-family: Montserrat-Bold;
+      font-size: 16px;
+      font-weight: normal;
+      color: #4F3A49;
+      letter-spacing: 0.8px;
+      line-height: 18px; }
+    section > aside > ul {
+      padding-left: 0px;
+      list-style: none; }
+      section > aside > ul h3 {
+        /* Building Culture: */
+        font-family: Montserrat-Medium;
+        font-size: 16px;
+        color: #3E303A;
+        font-weight: normal;
+        letter-spacing: 0.8px;
+        line-height: 18px; }
+      section > aside > ul p {
+        /* Our event can focus : */
+        font-family: Montserrat-Light;
+        font-size: 14px;
+        color: #7D7D7D;
+        letter-spacing: 0.89px;
+        line-height: 20px; }
+
+.jumbotron {
+  width: 100%;
+  padding: 0px;
+  height: 400px;
+  background: #FF5000;
+  flex-direction: column; }
+  .jumbotron .image {
+    background: url("https://i.snag.gy/cv6STr.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-grow: 1; }
+  .jumbotron .tagline {
+    border-radius: 3px;
+    border: 1px solid #eee;
+    background: white;
+    margin: auto; }
+    .jumbotron .tagline h1 {
+      font-family: Montserrat-SemiBold;
+      font-size: 24px;
+      color: #FF5000;
+      text-align: center;
+      white-space: nowrap;
+      letter-spacing: 2px;
+      line-height: 7px;
+      padding: 10px 40px; }
+  .jumbotron nav {
+    height: 80px;
+    display: flex; }
+    .jumbotron nav a {
+      text-decoration: none;
+      font-family: Montserrat-Light;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: white; }
+    .jumbotron nav .logo {
+      margin: auto;
+      text-align: center;
+      font-family: BerkshireSwash-Regular;
+      font-size: 20px;
+      font-weight: normal;
+      color: #FFFFFF;
+      letter-spacing: 1.33px;
+      line-height: 18px;
+      text-align: center; }
+      .jumbotron nav .logo span {
+        font-family: Lato-Light;
+        text-transform: uppercase;
+        font-size: 11px;
+        color: #FFFFFF;
+        letter-spacing: 4px;
+        line-height: 5px; }
+
+.footer {
+  background: #434559;
+  flex-direction: column; }
+  .footer h2 {
+    font-size: 18px;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: Montserrat-Light;
+    font-weight: 300;
+    color: white;
+    letter-spacing: 2px; }
+  .footer p {
+    text-align: center;
+    color: white;
+    font-family: Montserrat-Light; }
+    .footer p i {
+      font-size: 30px;
+      position: relative;
+      margin-right: 7px;
+      top: 4px; }
+      .footer p i:not(:first-child) {
+        margin-left: 28px; }
+
+.bottom {
+  height: 15px;
+  background: #333;
+  padding: 10px; }
+  .bottom p {
+    font-size: 12px;
+    color: #999;
+    margin: 0px;
+    font-family: Montserrat-Light;
+    text-align: center; }
+
+/*# sourceMappingURL=styles.css.map */
